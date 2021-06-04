@@ -1,0 +1,10 @@
+print("HATA INSTALL  By HorArt")
+if input('SKIP IF YOU ALREADY OPENED THIS FILE. Wanna install autotender [y/otherletter]')=='y':
+	login = input('Type your login here: ')
+	pword = input('Type your api secret here: ')
+	print("Check your data above. If whatever went wrong, restart this file")
+	f = open('logdata', 'w')
+	f.write(login + "\n" + pword)
+	print("SUCCESS (но это не точно)")
+	f.close()
+else: exit()

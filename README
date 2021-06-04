@@ -1,0 +1,5 @@
+HOWTOINSTALL: 
+pip isntall -r requirments.txt 
+py setup.py 
+(ur api key you can find on https://freelancehunt.com/my/api2 
+py setupcats.py 
